@@ -5,11 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --tw-bg-opacity: 1;
+
+  --font-mont: "__Montserrat_2c3fb3", "__Montserrat_Fallback_2c3fb3";
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(27 27 27/var(--tw-bg-opacity));
     --foreground: #ededed;
   }
 }
