@@ -26,7 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`var(--font-mont) font-mont w-full min-h-screen h-full antialiased`}
       >
         {children}
       </body>
